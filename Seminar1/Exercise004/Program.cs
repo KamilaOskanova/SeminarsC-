@@ -36,3 +36,24 @@ else
 {
     Console.WriteLine("This day of the week doesn't exist");
 }
+
+
+/*
+switch (number)
+{
+    case 1:
+    {
+        Console.WriteLine("Monday");
+        break;
+    }
+    case 2:
+    {
+        Console.WriteLine("Tuesday");
+        break;
+    }
+    default:         // - когда ни один из вариантов не подходит;
+    {
+        Console.WriteLine("Error");
+    }
+}
+*/
