@@ -1,0 +1,15 @@
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/bin/Debug/net6.0/Exercise001
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/bin/Debug/net6.0/Exercise001.deps.json
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/bin/Debug/net6.0/Exercise001.runtimeconfig.json
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/bin/Debug/net6.0/Exercise001.dll
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/bin/Debug/net6.0/Exercise001.pdb
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/obj/Debug/net6.0/Exercise001.csproj.AssemblyReference.cache
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/obj/Debug/net6.0/Exercise001.GeneratedMSBuildEditorConfig.editorconfig
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/obj/Debug/net6.0/Exercise001.AssemblyInfoInputs.cache
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/obj/Debug/net6.0/Exercise001.AssemblyInfo.cs
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/obj/Debug/net6.0/Exercise001.csproj.CoreCompileInputs.cache
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/obj/Debug/net6.0/Exercise001.dll
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/obj/Debug/net6.0/refint/Exercise001.dll
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/obj/Debug/net6.0/Exercise001.pdb
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/obj/Debug/net6.0/Exercise001.genruntimeconfig.cache
+/Users/M/Desktop/SeminarsC#/Seminar1/Exercise001/obj/Debug/net6.0/ref/Exercise001.dll
