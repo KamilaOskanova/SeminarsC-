@@ -17,6 +17,7 @@ void multiple(int num1, int num2)
         Console.WriteLine(" Yes, " + num1 + " is multiple of " + num2);
     }
     else
+    // я забыла вывести остаток от деления
     {
         Console.WriteLine(" No, " + num1 + " is not multiple of " + num2);
     }   
