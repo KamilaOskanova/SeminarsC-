@@ -26,6 +26,20 @@ else Console.WriteLine($"Сумма чисел от 1 до {numA} равна {Su
 // Задача 2:
 // Напишите программу, которая принимает на вход число и выдаёт количество цифр в числе.
 
+void Length(int N)
+{
+    int l = 1;
+    while (Math.Abs(N / 10) >= 1)
+    {
+        N = N / 10;
+        l++;
+    }
+    Console.WriteLine("Количество цифр в введенном числе " + l);
+}
+
+Console.WriteLine("Введите целое число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+Length(number);
 
 // Задача 3:
 // Напишите программу, которая принимает на вход число N и выдаёт произведение чисел от 1 до N.
