@@ -25,7 +25,7 @@ else Console.WriteLine($"Сумма чисел от 1 до {numA} равна {Su
 
 // Задача 2:
 // Напишите программу, которая принимает на вход число и выдаёт количество цифр в числе.
-
+/*
 void Length(int N)
 {
     int l = 1;
@@ -40,6 +40,8 @@ void Length(int N)
 Console.WriteLine("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 Length(number);
+*/
+
 
 // Задача 3:
 // Напишите программу, которая принимает на вход число N и выдаёт произведение чисел от 1 до N.
@@ -65,7 +67,19 @@ if (numA < 1) Console.WriteLine("Вы ввели ненатуральное чи
 else Console.WriteLine($"Произведение чисел от 1 до {numA} равно {Factorial(numA)}");
 */
 
+
 // Задача 4:
 // Напишите программу, которая выводит массив из 8 элементов, 
 // заполненный нулями и единицами в случайном порядке.
 
+void bitArray()
+{
+    int[] a = new int[8];
+    for (int i = 0; i < 8; i++)
+    {
+        a[i] = new Random().Next(0,2); // Входят только 0 и 1, в методе отмечает 0 и 2
+        Console.Write(a[i] + " ");
+    }
+}
+
+bitArray();
