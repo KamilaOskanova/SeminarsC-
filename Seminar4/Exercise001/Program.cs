@@ -5,18 +5,11 @@ int Sum(int A)
 {
     int result = 0;
 
-    if (A >= 1)
+    int i = 1;
+    while (i <= A)
     {
-        int i = 1;
-        while (i <= A)
-        {
-            result = result + i;
-            i++;
-        }
-    }
-    else
-    {
-        Console.WriteLine("Выввели ненатуральное число. Попробуйте еще раз!");
+        result = result + i;
+        i++;
     }
     return result;
 }
@@ -24,8 +17,9 @@ int Sum(int A)
 Console.WriteLine("Введите натуральное число: ");
 int numA = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"Сумма чисел от 1 до {numA} равна {Sum(numA)}");
 // $ - позволяет использовать методы и переменные для чтения программой
+if (numA < 1) Console.WriteLine("Вы ввели ненатуральное число. Попробуйте еще раз!");
+else Console.WriteLine($"Сумма чисел от 1 до {numA} равна {Sum(numA)}");
 
 
 
