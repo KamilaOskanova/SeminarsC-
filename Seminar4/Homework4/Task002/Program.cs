@@ -19,5 +19,5 @@ int DigitSum(int a)
 Console.WriteLine("Введите натуральное число: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 
-if (numberA > 0) Console.WriteLine($"Сумма чисел равна {DigitSum(numberA)}");
+if (numberA > 0) Console.WriteLine($"Сумма цифр в числе {numberA} равна {DigitSum(numberA)}");
 else Console.WriteLine("Вы ввели ненатуральное число. Попробуйте еще раз!");
