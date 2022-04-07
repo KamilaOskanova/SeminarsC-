@@ -22,6 +22,7 @@ int numC = Convert.ToInt32(Console.ReadLine());
 Triangle(numA,numB,numC);
 */
 
+
 // Задача 2:
 // Напишите программу, которая будет преобразовывать десятичное число в двоичное.
 /*
@@ -66,6 +67,27 @@ int number = Convert.ToInt32(Console.ReadLine());
 Fibonacci(number);
 */
 
+/*
+// Method 2
+void Fib_Bruteforce(int size)
+{
+    int n1 = 0;
+    int n2 = 1;
+    int n;
+    Console.Write(n1 + " " + n2 + " ");
+    for (int i = 2; i < size; i++)
+    {
+        n = n1 + n2;
+        n1 = n2;
+        n2 = n;
+        Console.Write(n + " ");
+    }
+}
+Console.WriteLine("Enter  number:  ");
+int N = Convert.ToInt32(Console.ReadLine());
+Fib_Bruteforce(N);
+*/
+
 // Задача 4:
 // Напишите программу, которая будет создавать копию заданного массива 
 // с помощью поэлементного копирования.
@@ -82,3 +104,30 @@ for (int i = 0; i < matrix.GetLength(0); i++)
 }
 
 // можно также добавить getLength(...)
+
+/* Method 2 - added copying an array
+int [,] init_array = new int[3,4];
+for (int i=0; i<init_array.GetLength(0);i++)
+{
+    for (int j=0; j<init_array.GetLength(1);j++)
+        {
+            init_array[i,j]=new Random().Next(100);
+            Console.Write(init_array[i,j]+" ");
+        }
+    Console.WriteLine(" ");        
+}
+
+Console.WriteLine("----------------------------------");
+int [,] array_copy = new int[init_array.GetLength(0),init_array.GetLength(1)];
+
+
+for (int i=0; i<array_copy.GetLength(0);i++)
+{
+    for (int j=0; j<array_copy.GetLength(1);j++)
+        {
+            array_copy[i,j]=init_array[i,j];
+            Console.Write(array_copy[i,j]+" ");
+        }
+    Console.WriteLine(" ");        
+}
+*/
