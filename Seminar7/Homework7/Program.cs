@@ -33,7 +33,7 @@ FillRandomDoubleTwoDimensionalArray(m, n);
 // в двумерном массиве, и возвращает значение этого элемента или же указание, 
 // что такого элемента нет.
 
-/*
+
 int[,] PrintTwoDimentsionalArray(int[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
@@ -55,7 +55,11 @@ void FindElementInArray(int[,] matrix, int rowindex, int columnindex)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            if (i == rowindex && j == columnindex) element = matrix[i, j];
+            if (i == rowindex && j == columnindex)
+            {
+                element = matrix[i, j];
+                break;
+            }
         }
     }
     Console.WriteLine();
@@ -82,17 +86,17 @@ if (rowind < array_result.GetLength(0) && colind < array_result.GetLength(1))
 {
     FindElementInArray(array_result, rowind, colind);
 }
-else 
+else
 {
     Console.WriteLine();
     Console.WriteLine($"Try again, the element with index ({rowind}, {colind}) is not in the array. ");
 }
-*/
+
 
 // Задача 3. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое 
 // элементов в каждом столбце.
 
-
+/*
 int[,] PrintTwoDimentsionalArray(int[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
@@ -132,3 +136,4 @@ int n = Convert.ToInt32(Console.ReadLine());
 int[,] array_result = new int[m,n];
 PrintTwoDimentsionalArray(array_result);
 FindArrayColumnMean(array_result);
+*/
