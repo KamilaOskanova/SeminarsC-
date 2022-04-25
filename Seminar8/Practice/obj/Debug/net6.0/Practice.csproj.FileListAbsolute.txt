@@ -1,0 +1,15 @@
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/obj/Debug/net6.0/Practice.csproj.AssemblyReference.cache
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/obj/Debug/net6.0/Practice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/obj/Debug/net6.0/Practice.AssemblyInfoInputs.cache
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/obj/Debug/net6.0/Practice.AssemblyInfo.cs
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/obj/Debug/net6.0/Practice.csproj.CoreCompileInputs.cache
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/bin/Debug/net6.0/Practice
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/bin/Debug/net6.0/Practice.deps.json
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/bin/Debug/net6.0/Practice.runtimeconfig.json
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/bin/Debug/net6.0/Practice.dll
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/bin/Debug/net6.0/Practice.pdb
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/obj/Debug/net6.0/Practice.dll
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/obj/Debug/net6.0/refint/Practice.dll
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/obj/Debug/net6.0/Practice.pdb
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/obj/Debug/net6.0/Practice.genruntimeconfig.cache
+/Users/M/Desktop/SeminarsC#/Seminar8/Practice/obj/Debug/net6.0/ref/Practice.dll
